@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="true">Popular Movies</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="popular_option" translatable="false">popularity.desc</string>
+    <string name="top_rated_option" translatable="false">vote_average</string>
+    <string-array name="sort_type">
+        <item>Popularity</item>
+        <item>Top rated</item>
+    </string-array>
+    <string-array name="sort_typeAlias">
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+    </string-array>
+    <string name="pref_gen_sort_label">Sort by:</string>
+    <string name="pref_gen_sort_key">sort_pref</string>
+    <string name="pref_gen_sort_default">popularity.desc</string>
+    <string name="poster_desc">Movie poster</string>
+</resources>
